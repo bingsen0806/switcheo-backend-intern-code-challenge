@@ -14,7 +14,7 @@ WHERE EXISTS (
     WHERE T.address = B.address AND T.block_height > 730000
 )
 GROUP BY B.address
-having sum(amount * 
+HAVING sum(amount * 
     CASE
         WHEN denom = 'usdc' THEN 0.000001
         WHEN denom = 'swth' THEN 0.00000005
