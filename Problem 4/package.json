@@ -1,0 +1,16 @@
+{
+  "name": "switcheo",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Lim Bing Sen",
+  "license": "ISC",
+  "dependencies": {
+    "ethers": "^6.0.2",
+    "ts-node": "^10.9.1"
+  },
+  "devDependencies": {},
+  "description": ""
+}
